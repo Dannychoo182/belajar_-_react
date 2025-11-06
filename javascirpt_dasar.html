@@ -32,23 +32,34 @@
       //   tambah();
       //   tambah();
 
+      //   Contoh Manipulasi String: //
+
       //   let kalimat = 'belajar javascript itu enak';
       //   console.log(kalimat.length);
       //   console.log(kalimat.toUpperCase());
       //   console.log(kalimat.slice(0, 8));
       //   console.log(kalimat.includes('belajar'));
 
+      //   NUMBER – Angka (Baik Integer Maupun Desimal) //
+
       //   let umur = 22;
       //   let berat = 2.25;
       //   let jumlah = umur + berat;
       //   console.log(jumlah);
 
+      //   JavaScript menggunakan IEEE 754 (double-precision floating point)//
+      //   jadi operasi desimal bisa sedikit tidak akurat //
+
       //   console.log(0.1 + 0.2);
       //   console.log((0.1 + 0.2).toFixed(2));
+
+      //   BOOLEAN – Logika Benar atau Salah //
 
       //   let umur = 18;
       //   let dewasa = umur >= 17;
       //   console.log(dewasa);
+
+      //  NILAI - NILAI YANG DI ANGGAP FALSE OLEH JAVASCRIPT //
 
       //   if ('hallo') console.log('truty');
       //   if (0) console.log('tidak muncul');
@@ -58,6 +69,150 @@
       //   if (undefined) console.log('tidak muncul');
       //   if ('') console.log('tidak muncul');
       //   if (21) console.log('munculkan');
+
+      //   let nama;
+      //   console.log(nama);
+
+      //   contoh OBJECT //
+
+      //   let murid = {
+      //     nama: 'deny',
+      //     umur: 21,
+      //     alamat: {
+      //       kota: 'denpasar',
+      //       kab: 'badung',
+      //     },
+      //   };
+      //   console.log(murid);
+      //   console.log(murid.nama);
+      //   console.log(murid.umur);
+      //   console.log(murid.alamat.kota);
+
+      //   TIPE DATA //
+
+      //   console.log(typeof 'danny');
+      //   console.log(typeof 20);
+      //   console.log(typeof null);
+      //   console.log(typeof true);
+      //   console.log(typeof {});
+      //   console.log(typeof []);
+      //   console.log(typeof undefined);
+      //   console.log(typeof NaN);
+
+      //   INCREMRENT //
+
+      //   let z = 10;
+      //   function tambah() {
+      //     z++;
+      //     console.log('count', z);
+      //   }
+      //   tambah();
+      //   tambah();
+
+      //   DECREMENT //
+
+      //   let a = 20;
+      //   function kurang() {
+      //     a--;
+      //     console.log('hitung', a);
+      //   }
+      //   kurang();
+      //   kurang();
+      //   kurang();
+
+      // let a = 2;
+      // console.log(++a);
+      // console.log(a);
+
+      // OPERATOR PERBANDINGAN //
+
+      //   console.log(5 == '5');
+      //   console.log(5 === '5');
+      //   console.log(5 != '5');
+      //   console.log(5 !== '5');
+      //   console.log(8 > 5);
+      //   console.log(10 < 6);
+      //   console.log(10 <= 10);
+      //   console.log(12 >= 10);
+
+      // Operator Logika (Logical Operators) //
+
+      //   ( && )
+
+      //   let umur = 16;
+      //   let punyaSim = true;
+
+      //   if (umur >= 17 && punyaSim) {
+      //     console.log('boleh masuk');
+      //   } else {
+      //     console.log('stop JANGAN MASUK)');
+      //   }
+
+      //   ( || )
+
+      //   let umur = 22;
+      //   let sundel = true;
+
+      //   if (umur <= 21 || sundel) {
+      //     console.log('boleh mekatuk');
+      //   } else {
+      //     console.log('tidak boleh mekatuk');
+      //   }
+
+      //   let umur = 22;
+      //   let sundel = true;
+      //   let VVIP = false;
+
+      //   if (umur >= 20 && sundel && VVIP) {
+      //     console.log('silahkan di katuk');
+      //   } else {
+      //     console.log('jangan di entot');
+      //   }
+
+      //  NESTED IF //
+
+      //   const nilai = 80;
+
+      //   if (nilai >= 90) {
+      //     console.log('Nilai A');
+      //   } else if (nilai >= 80) {
+      //     console.log('nilai B');
+      //   } else if (nilai >= 70) {
+      //     console.log('Nilai C');
+      //   } else {
+      //     console.log('kamu bego');
+      //   }
+
+      //   let umur = 22;
+      //   let bisaMekatuk = false;
+
+      //   if (umur >= 20) {
+      //     if (bisaMekatuk) {
+      //       console.log('boleh mekatuk');
+      //     } else {
+      //       console.log('belum boleh mekatuk');
+      //     }
+      //   } else {
+      //     console.log('masih di bawah umur');
+      //   }
+
+      //   let hari = 'jumat';
+
+      //   switch (hari) {
+      //     case 'senin':
+      //       console.log('mekatuk jak dian');
+      //       break;
+      //     case 'rabu':
+      //     case 'kamis':
+      //       console.log('mekatuk jak widya');
+      //       break;
+      //     case 'jumat':
+      //     case 'sabtu':
+      //       console.log('mekatuk jak dekras');
+      //       break;
+      //     default:
+      //       console.log('mekatuk jak ayuk');
+      //   }
     </script>
   </body>
 </html>
